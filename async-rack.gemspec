@@ -13,9 +13,11 @@ SPEC = Gem::Specification.new do |s|
   s.authors          = ["Konstantin Haase"]
   s.email            = "konstantin.mailinglists@googlemail.com"
   s.files            = Dir["**/*.{rb,md}"] << "LICENSE"
-  s.has_rdoc         = 'yard'
-  s.homepage         = "http://github.com/rkh/#{s.name}"
+  s.homepage         = "http://github.com/invoca/#{s.name}"
   s.require_paths    = ["lib"]
   s.summary          = s.description
+
+  # Pushing these changes to our private server
+  s.metadata["allowed_push_host"] = "https://gem.fury.io/invoca"
 end
 
