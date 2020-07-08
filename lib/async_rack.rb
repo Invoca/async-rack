@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "rack"
 require "async_rack/async_callback"
 
