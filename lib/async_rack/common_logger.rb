@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "rack/commonlogger"
+require "rack/common_logger"
 
 module AsyncRack
   class CommonLogger < AsyncCallback(:CommonLogger)

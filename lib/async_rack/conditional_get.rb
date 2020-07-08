@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "rack/conditionalget"
+require "rack/conditional_get"
 
 module AsyncRack
   class ConditionalGet < AsyncCallback(:ConditionalGet)
