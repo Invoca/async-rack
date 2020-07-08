@@ -2,7 +2,7 @@ SPEC = Gem::Specification.new do |s|
 
   # Get the facts.
   s.name             = "async-rack"
-  s.version          = "0.5.1"
+  s.version          = "1.0.0"
   s.description      = "Makes middleware that ships with Rack bullet-proof for async responses."
 
   # External dependencies
@@ -17,6 +17,5 @@ SPEC = Gem::Specification.new do |s|
   s.homepage         = "http://github.com/rkh/#{s.name}"
   s.require_paths    = ["lib"]
   s.summary          = s.description
-
 end
 

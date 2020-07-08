@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    async-rack (0.5.1)
+    async-rack (1.0.0)
       rack (~> 2.0)
 
 GEM
