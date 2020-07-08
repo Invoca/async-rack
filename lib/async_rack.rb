@@ -37,8 +37,8 @@ module AsyncRack
 
   # Wrapped rack middleware
   autoload :Chunked,        "async_rack/chunked"
-  autoload :CommonLogger,   "async_rack/commonlogger"
-  autoload :ConditionalGet, "async_rack/conditionalget"
+  autoload :CommonLogger,   "async_rack/common_logger"
+  autoload :ConditionalGet, "async_rack/conditional_get"
   autoload :ContentLength,  "async_rack/content_length"
   autoload :ContentType,    "async_rack/content_type"
   autoload :Deflater,       "async_rack/deflater"
@@ -48,7 +48,7 @@ module AsyncRack
   autoload :Logger,         "async_rack/logger"
   autoload :Runtime,        "async_rack/runtime"
   autoload :Sendfile,       "async_rack/sendfile"
-  autoload :ShowStatus,     "async_rack/showstatus"
+  autoload :ShowStatus,     "async_rack/show_status"
 
   module Session
     extend ExtensionMixin
